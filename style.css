@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: normal;
+  color: #191970;
+  background-color: #e0ffff;
+}
+.info-text {
+  background-color: rgb(255, 174, 174);
+}
+.info-text p {
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.photo {
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  width: 200px;
+  position: static;
+}
+.btn {
+  background-color: #5e5e5e;
+  padding: 10px 10px 5px 10px;
+  color: rgb(233, 255, 109);
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.btn:hover {
+  opacity: 0.5;
+  color: rgb(110, 78, 19);
+}
+/* .btn:active {
+  color: red;
+}
+.btn:visited {
+  color: #555;
+} */
+.table {
+  width: 100%;
+  padding: 10px;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2) {
+  color: #444;
+}
+.list {
+  padding-left: 25px;
+}
+.list li {
+  margin-bottom: 10px;
+}
+.works,
+.courses {
+  background-color: lightgoldenrodyellow;
+}
+.skills,
+.hobbies {
+  background-color: rgb(175, 250, 187);
+}
+.contacts {
+  background-color: rgb(255, 174, 174);
+  display: inline-block;
+  padding: 15px;
+}
+.info {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+@media (max-width: 650px) {
+  .info {display: block;
+  text-align: center;}
+}
